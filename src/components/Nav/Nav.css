@@ -1,0 +1,37 @@
+nav {
+	justify-content: space-between;
+	border-right: 1px solid white;
+	background-color: var(--dark)
+}
+
+.site-nav {
+	width: 100%;
+	justify-content: flex-end;
+	font-size: 1.3rem;
+}
+
+.site-nav a{
+	padding: 1rem
+}
+
+.ext-links {
+	justify-content: space-evenly;
+}
+
+.nav-logo {
+	height: 2.5rem;
+	padding: .2rem;
+}
+
+@media (max-width: 1000px) {
+	.nav-logo {
+		height: 2rem;
+		margin-left: .5rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.site-nav {
+		font-size: .8rem;
+	}
+}

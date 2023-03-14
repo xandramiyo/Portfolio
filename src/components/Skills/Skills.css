@@ -1,0 +1,17 @@
+#skills {
+	margin: 2rem 1rem;
+}
+
+.skill-ctr {
+	flex-wrap: wrap;
+}
+
+.logo {
+	height: 3rem;
+	margin: 1rem;
+}
+
+.logo:hover {
+	transform: translateY(-10px);
+	transition: ease;
+}
