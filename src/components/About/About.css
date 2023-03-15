@@ -5,11 +5,18 @@
 .left {
 	width: 100%;
 	margin: 1rem;
+	background-color: var(--dark);
+	padding: .3rem;
+	border-radius: 10px;
+}
+
+.left div {
+	padding: .3rem;
 }
 
 .left p {
 	text-align: center;
-	margin: .4rem;
+	margin: .5rem;
 }
 
 .self {

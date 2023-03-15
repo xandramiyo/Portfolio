@@ -1,0 +1,57 @@
+#projects h3 {
+	margin: 1rem;
+}
+
+.project-ctr {
+	align-items: center;
+	background-color: var(--dark);
+	color: white;
+}
+
+.project-ctr > div {
+	padding: 1rem;
+}
+
+.project-img img {
+	height: 10rem;
+}
+
+.project-info {
+	margin: .8rem;
+	padding: .4rem;
+	font-weight: 400;
+}
+
+.project-footer {
+	margin: .8rem 0rem;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.project-footer * {
+	margin: .5rem;
+	color: white;
+}
+
+.project-footer div {
+	border: 1px solid pink;
+	padding: .4rem;
+}
+
+.project-link {
+	height: 2rem;
+}
+
+h5 {
+	font-size: 1.2rem;
+}
+
+@media(min-width: 800px) {
+	.project-ctr {
+		width: 40rem;
+	}
+
+	.project-img img {
+		height: 15rem;
+	}
+}

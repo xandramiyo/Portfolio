@@ -7,7 +7,7 @@ export default function Nav(){
 	return (
 		<nav className="flex">
 			<div className="flex center">
-				<a href="#home"><img src={logo} className="nav-logo"/></a>
+				<img src={logo} className="nav-logo"/>
 			</div>
 			<div className="flex site-nav">
 				<a href="#home">About</a>

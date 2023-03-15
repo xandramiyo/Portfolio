@@ -15,7 +15,7 @@ import github from '../../images/github.png'
 
 export default function Skills() {
 	return (
-		<div id="skills">
+		<section id="skills" className= "flex col center">
 			<h3>skills</h3>
 			<div className="flex center skill-ctr">
 				<img src={js} alt="Javascript" className="logo" data-content="Javascript"/>
@@ -31,6 +31,6 @@ export default function Skills() {
 				<img src={react} alt="React.js library" className="logo" />
 				<img src={github} alt="Github Version Control" className="logo" />
 			</div>
-		</div>
+		</section>
 	)
 }

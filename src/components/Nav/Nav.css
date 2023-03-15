@@ -1,7 +1,9 @@
 nav {
 	justify-content: space-between;
 	border-right: 1px solid white;
-	background-color: var(--dark)
+	background-color: var(--dark);
+	position: sticky;
+	z-index: 10;
 }
 
 .site-nav {
