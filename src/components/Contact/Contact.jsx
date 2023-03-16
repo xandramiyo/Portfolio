@@ -3,6 +3,14 @@ import linkedin from '../../images/linkedin.png'
 import github from '../../images/github.png'
 
 export default function Contact() {
+
+	const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_agddv4w', 'template_maub5z9', form.current, 'agiHzzbGo689oPv0u')
+        e.target.reset()
+    };
+
 	return (
 		<section id="contact" className="flex col center">
 			<h3>Get in touch</h3>
@@ -18,7 +26,7 @@ export default function Contact() {
 						</a>
 					</div>
 				</div>
-				<form className="flex col right-contact">
+				<form className="flex col right-contact" onSubmit={sendEmail}>
 					<input placeholder="Name"></input>
 					<input placeholder="Email"></input>
 					<textarea 
