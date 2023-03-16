@@ -1,8 +1,11 @@
 import './Contact.css'
+import { useRef } from 'react'
 import linkedin from '../../images/linkedin.png'
 import github from '../../images/github.png'
+import emailjs from 'emailjs-com'
 
 export default function Contact() {
+	const form = useRef();
 
 	const sendEmail = (e) => {
         e.preventDefault();
@@ -27,9 +30,10 @@ export default function Contact() {
 					</div>
 				</div>
 				<form className="flex col right-contact" onSubmit={sendEmail}>
-					<input placeholder="Name"></input>
-					<input placeholder="Email"></input>
+					<input name='name' placeholder="Name"></input>
+					<input name='email' placeholder="Email"></input>
 					<textarea 
+						name='message'
 						placeholder="Message"
 						rows={5}
 					></textarea>
