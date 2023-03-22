@@ -1,12 +1,20 @@
 import './Projects.css'
+import { useEffect} from 'react'
 import github from '../../images/github.png'
 import pc from '../../images/monitor.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Projects() {
+	
+	useEffect(() => {
+        AOS.init();
+    }, [])
+	
 	return (
 		<section id="projects" className="flex col center">
-			<h3>featured projects</h3>
-			<div id="project1" className="project-ctr flex col">
+			<h3 data-aos="fade-up">featured projects</h3>
+			<div id="project1" className="project-ctr flex col" data-aos="fade-right">
 				<div className="project-img">
 					<img src="https://i.imgur.com/BpK0qhW.png"/>
 				</div>
@@ -28,7 +36,7 @@ export default function Projects() {
 					</div>
 				</div>
 			</div>
-			<div id="project2" className="project-ctr flex col">
+			<div id="project2" className="project-ctr flex col" data-aos="fade-left">
 				<div className="project-img">
 					<img src=""/>
 				</div>
@@ -49,7 +57,7 @@ export default function Projects() {
 					</div>
 				</div>
 			</div>
-			<div id="project3" className="project-ctr flex col">
+			<div id="project3" className="project-ctr flex col" data-aos="fade-right">
 				<div className="project-img">
 					<img src="https://i.imgur.com/hbHBUtQ.png"/>
 				</div>
@@ -73,7 +81,7 @@ export default function Projects() {
 					</div>
 				</div>
 			</div>
-			<div id="project4" className="project-ctr flex col">
+			<div id="project4" className="project-ctr flex col" data-aos="fade-left">
 				<div className="project-img">
 					<img src="https://i.imgur.com/XMNP2Le.png"/>
 				</div>

@@ -21,7 +21,7 @@ form textarea {
 
 .contact-links {
 	justify-content: space-evenly;
-	margin-top: .5rem;
+	margin-top: 1rem;
 }
 
 
@@ -40,6 +40,13 @@ form textarea {
 
 	.left-contact,
 	.right-contact {
-	width: 50%;
+		width: 50%;
+		height: 100%;
+	}
+
+	.left-contact {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 }

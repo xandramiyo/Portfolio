@@ -1,6 +1,14 @@
 import './Landing.css'
+import { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Landing() {
+
+	useEffect(() => {
+        AOS.init();
+    }, [])
+
 	return (
 		<section id="landing" className="flex col center">
 			<div className="landing">

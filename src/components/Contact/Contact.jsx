@@ -1,8 +1,10 @@
 import './Contact.css'
-import { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import linkedin from '../../images/linkedin.png'
 import github from '../../images/github.png'
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Contact() {
 	const form = useRef();
@@ -14,10 +16,14 @@ export default function Contact() {
         e.target.reset()
     };
 
+	useEffect(() => {
+        AOS.init();
+    }, [])
+
 	return (
 		<section id="contact" className="flex col center">
-			<h3>get in touch</h3>
-			<div className="flex contact-ctr">
+			<h3 data-aos="fade-up">get in touch</h3>
+			<div className="flex contact-ctr" data-aos="fade-up">
 				<div className="left-contact">
 					<p>Whether you have an opportunity for me or just want to have a chat, fill out the form and I'll get back to you as soon as I can!</p>
 					<div className="flex contact-links">
@@ -29,7 +35,7 @@ export default function Contact() {
 						</a>
 					</div>
 				</div>
-				<form className="flex col right-contact" onSubmit={sendEmail}>
+				<form className="flex col right-contact" onSubmit={sendEmail} ref={form}>
 					<input name='name' placeholder="Name"></input>
 					<input name='email' placeholder="Email"></input>
 					<textarea 
