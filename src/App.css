@@ -3,10 +3,6 @@
   flex-direction: column;
 }
 
-.main {
-  overflow: scroll;
-}
-
 section {
   min-height: 100vh;
 }

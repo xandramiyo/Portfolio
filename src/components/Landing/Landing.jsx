@@ -1,6 +1,7 @@
 import './Landing.css'
 import { useEffect } from 'react'
-import AOS from 'aos';
+import resume from '../../files/resume.pdf'
+import AOS from 'aos';	
 import 'aos/dist/aos.css';
 import Typewriter from 'typewriter-effect'
 
@@ -35,7 +36,10 @@ export default function Landing() {
 						}}
 					/>
 				</div>
-				<a href="#contact">contact me</a>
+				<div className="landing-links">
+					<a href="#contact">contact me</a>
+					<a href={resume} target='_blank' rel="noreferrer">resume</a>
+				</div>
 			</div>
 		</section>
 	)

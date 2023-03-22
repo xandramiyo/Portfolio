@@ -22,17 +22,48 @@ nav {
 	justify-content: space-evenly;
 }
 
-.nav-logo {
+.nav-logo,
+.hamburger img {
 	height: 2.5rem;
 	padding: .2rem;
+	cursor: pointer;
 }
 
-@media (max-width: 1000px) {
+.hamburger {
+	display: none;
+	margin-right: .5rem; 
+}
+
+/* @media (max-width: 850px) {
 	.nav-logo {
 		height: 2rem;
 		margin-left: .5rem;
 	}
-}
+
+	.hamburger {
+		display: flex;
+	}
+
+	.site-nav {
+		position: fixed;
+		top: 2.5rem;
+		right: -100%;
+		gap: 0;
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+		background-color: var(--main);
+	}
+
+	.site-nav a {
+		margin: .5rem 0rem;
+	}
+
+	.site-nav.active {
+		right: 0;
+	}
+} */
 
 @media (max-width: 400px) {
 	.site-nav {
