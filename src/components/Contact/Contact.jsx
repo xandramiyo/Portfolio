@@ -2,9 +2,9 @@ import './Contact.css'
 import React, { useRef, useEffect } from 'react'
 import linkedin from '../../images/linkedin.png'
 import github from '../../images/github.png'
-import emailjs from 'emailjs-com';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import emailjs from 'emailjs-com'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Contact() {
 	const form = useRef();
@@ -27,10 +27,10 @@ export default function Contact() {
 				<div className="left-contact">
 					<p>Whether you have an opportunity for me or just want to have a chat, fill out the form and I'll get back to you as soon as I can!</p>
 					<div className="flex contact-links">
-						<a href="">
+						<a href="https://www.linkedin.com/in/alexandra-sumiyoshi/">
 							<img src={linkedin} className="project-link"/>
 						</a>
-						<a href=""> 
+						<a href="https://github.com/xandramiyo"> 
 							<img src={github} className="project-link"/>
 						</a>
 					</div>

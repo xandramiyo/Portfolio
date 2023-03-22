@@ -1,6 +1,33 @@
 .landing h2 {
 	text-align: center;
 	margin: 1rem;
+	font-size: 3rem;
+	font-style: italic;
+}
+
+.landing a {
+	margin: 1.5rem;
+	padding: .5rem;
+	border: 1px solid pink;
+	border-radius: 4px;
+}
+
+.landing a:hover {
+	background-color: var(--main);
+	border: 1px solid var(--main);
+	color: white;
+}
+
+.landing p {
+	text-align: left;
+}
+
+.typewriter p{
+	margin-right: .2rem;
+}
+
+.typewriter {
+	font-size: 1.2rem;
 }
 
 @media (max-width: 800px) {

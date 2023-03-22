@@ -3,6 +3,7 @@
 	margin-top: .5rem;
 	flex-direction: column;
 	align-items: center;
+	border-radius: 10px;
 }
 
 .left-contact,
@@ -22,6 +23,20 @@ form textarea {
 .contact-links {
 	justify-content: space-evenly;
 	margin-top: 1rem;
+}
+
+.right-contact button {
+	border: none;
+	background-color: var(--dark);
+	color: white;
+	padding: .2rem;
+	font-size: .9rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.right-contact button:hover {
+	background-color: pink;
 }
 
 
@@ -44,9 +59,9 @@ form textarea {
 		height: 100%;
 	}
 
-	.left-contact {
+	/* .left-contact {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-	}
+	} */
 }
