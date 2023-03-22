@@ -7,22 +7,16 @@ export default function Nav(){
 	return (
 		<nav className="flex">
 			<div className="flex center">
-				<img src={logo} className="nav-logo"/>
+				<a href="#landing">
+					<img src={logo} className="nav-logo"/>
+				</a>
 			</div>
 			<div className="flex site-nav">
-				<a href="#home">About</a>
+				<a href="#about">About</a>
 				<a href="#skills">Skils</a>
 				<a href="#projects">Projects</a>
 				<a href="#contact">Contact</a>
 			</div>
-			{/* <div className="flex ext-links">
-				<a target="_blank" href="https://www.linkedin.com/in/alexandra-sumiyoshi/">
-					<img src={linkedin} className="nav-logo" />
-				</a>
-				<a target="_blank" href="https://github.com/xandramiyo">
-					<img src={github} className="nav-logo" />
-				</a>
-			</div> */}
 		</nav>
 	)
 }

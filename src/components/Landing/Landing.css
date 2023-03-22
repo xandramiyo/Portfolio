@@ -1,0 +1,10 @@
+.landing h2 {
+	text-align: center;
+	margin: 1rem;
+}
+
+@media (max-width: 800px) {
+	.landing {
+		width: 90%;
+	}
+}

@@ -1,11 +1,8 @@
-#projects h3 {
-	margin: 1rem;
-}
-
 .project-ctr {
 	align-items: center;
-	background-color: var(--dark);
+	background-color: var(--main);
 	color: white;
+	margin: .5rem 0rem;
 }
 
 .project-ctr > div {
@@ -46,9 +43,15 @@ h5 {
 	font-size: 1.2rem;
 }
 
+@media (max-width: 800px) {
+	#projects {
+		width: 90%;
+	}
+}
+
 @media(min-width: 800px) {
 	.project-ctr {
-		width: 40rem;
+		width: 50rem;
 	}
 
 	.project-img img {

@@ -4,8 +4,9 @@
 
 .skill-ctr {
 	flex-wrap: wrap;
-	background-color: var(--dark);
+	background-color: var(--main);
 	border-radius: 10px;
+	margin-top: .5rem;
 }
 
 .logo {
