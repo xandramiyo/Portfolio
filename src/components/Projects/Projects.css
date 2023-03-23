@@ -48,6 +48,16 @@ h5 {
 	#projects {
 		width: 90%;
 	}
+
+	.project-ctr {
+		width: 22rem;
+	}
+}
+
+@media (min-width: 500px) {
+	.project-ctr {
+		width: 30rem;
+	}
 }
 
 @media(min-width: 800px) {

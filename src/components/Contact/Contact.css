@@ -39,9 +39,18 @@ form textarea {
 	background-color: pink;
 }
 
+.contact-links {
+	justify-content: space-evenly;
+	width: 100%;
+}
+
 
 @media (max-width: 800px) {
 	#contact {
+		width: 90%;
+	}
+
+	form {
 		width: 90%;
 	}
 }
@@ -58,10 +67,4 @@ form textarea {
 		width: 50%;
 		height: 100%;
 	}
-
-	/* .left-contact {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-	} */
 }

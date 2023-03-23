@@ -2,6 +2,7 @@ import './Contact.css'
 import React, { useRef, useEffect } from 'react'
 import linkedin from '../../images/linkedin.png'
 import github from '../../images/github.png'
+import mail from '../../images/mail.png'
 import emailjs from 'emailjs-com'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -24,7 +25,7 @@ export default function Contact() {
 		<section id="contact" className="flex col center">
 			<h3 data-aos="fade-up">get in touch</h3>
 			<div className="flex contact-ctr" data-aos="fade-up">
-				<div className="left-contact">
+				<div className="left-contact flex col center">
 					<p>Whether you have an opportunity for me or just want to have a chat, fill out the form and I'll get back to you as soon as I can!</p>
 					<div className="flex contact-links">
 						<a href="https://www.linkedin.com/in/alexandra-sumiyoshi/">
@@ -32,6 +33,9 @@ export default function Contact() {
 						</a>
 						<a href="https://github.com/xandramiyo"> 
 							<img src={github} className="project-link"/>
+						</a>
+						<a href="mailto:aj.sumiyoshi@gmail.com"> 
+							<img src={mail} className="project-link"/>
 						</a>
 					</div>
 				</div>
