@@ -14,7 +14,7 @@ export default function Projects() {
 	return (
 		<section id="projects" className="flex col center">
 			<h3 data-aos="fade-up">featured projects</h3>
-			<div id="project1" className="project-ctr flex col" data-aos="fade-right">
+			<div id="project1" className="project-ctr flex col" data-aos="fade-up">
 				<div>
 					<img src="https://i.imgur.com/BpK0qhW.png" className="project-img"/>
 				</div>
@@ -36,7 +36,7 @@ export default function Projects() {
 					</div>
 				</div>
 			</div>
-			<div id="project2" className="project-ctr flex col" data-aos="fade-left">
+			<div id="project2" className="project-ctr flex col" data-aos="fade-up">
 				<div className="project-img">
 					<img src=""/>
 				</div>
@@ -57,7 +57,7 @@ export default function Projects() {
 					</div>
 				</div>
 			</div>
-			<div id="project3" className="project-ctr flex col" data-aos="fade-right">
+			<div id="project3" className="project-ctr flex col" data-aos="fade-up">
 				<div>
 					<img src="https://i.imgur.com/hbHBUtQ.png" className="project-img"/>
 				</div>
@@ -81,7 +81,7 @@ export default function Projects() {
 					</div>
 				</div>
 			</div>
-			<div id="project4" className="project-ctr flex col" data-aos="fade-left">
+			<div id="project4" className="project-ctr flex col" data-aos="fade-up">
 				<div>
 					<img src="https://i.imgur.com/XMNP2Le.png" className="project-img"/>
 				</div>

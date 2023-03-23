@@ -5,14 +5,22 @@ import menu from '../../images/menu.png'
 
 export default function Nav(){
 
-	// const hamburger = useRef(null);
+	useEffect(() => {
+		let navUl = document.querySelector('.site-nav')
+		let hamburger = document.querySelector('.hamburger')
 
-	// useEffect(() => {
-	// 	setTimeout(() => {
-	// 	hamburger.current.classList.toggle("active");
-	// 	}, 1000);
-	// 	return () => {};
-	// });
+		hamburger.addEventListener('click', () => {
+			navUl.classList.toggle('active')
+		})
+
+		let navLinks = document.querySelectorAll('.site-nav a')
+		navLinks.forEach((link) => {
+			link.addEventListener('click', () => {
+				navUl.classList.remove('active')
+			})
+		})
+
+	}, [])
 
 	return (
 		<nav className="flex">
@@ -27,9 +35,9 @@ export default function Nav(){
 				<a href="#projects">projects</a>
 				<a href="#contact">contact</a>
 			</div>
-			{/* <div className="flex center hamburger">
+			<div className="flex center hamburger">
 				<img src={menu}/> 
-			</div> */}
+			</div>
 		</nav>
 	)
 }
