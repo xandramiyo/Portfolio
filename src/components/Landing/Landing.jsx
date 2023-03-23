@@ -27,7 +27,7 @@ export default function Landing() {
 							strings: [
 							"software engineer.",
 							"dog mom.",
-							"tryer of many hobbies.",
+							"trier of many hobbies.",
 							"bit of a nerd.",
 							],
 							autoStart: true,
