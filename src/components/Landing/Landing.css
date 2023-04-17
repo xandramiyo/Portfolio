@@ -1,41 +1,57 @@
 .landing h2 {
 	text-align: center;
-	margin: 1rem;
+	padding-top: 8rem;
+	margin: 1rem 1rem .2rem 0rem;
 	font-size: 3rem;
-	font-style: italic;
+	font-weight: 600;
+}
+
+.landing {
+	align-items: flex-start;
+}
+
+.landing-links {
+	width: 100%;
 }
 
 .landing a {
-	margin: 1.5rem;
 	padding: .5rem;
-	border: 1px solid pink;
-	border-radius: 4px;
 }
 
 .landing a:hover {
-	background-color: var(--main);
-	border: 1px solid var(--main);
 	color: white;
 }
 
 .landing p {
 	text-align: left;
-}
-
-.typewriter p{
-	margin-right: .2rem;
+	color: var(--main-text);
 }
 
 .typewriter {
-	font-size: 1.2rem;
+	width: 100%;
+	font-size: 1.8rem;
+	color: var(--main-text);
 }
 
 .landing-links {
 	margin-top: 1.5rem;
 }
 
+hr {
+	width: 80%;
+	align-self: center;
+	margin-top: 7rem;
+	color: var(--main-text);
+}
+
 @media (max-width: 800px) {
 	.landing {
-		width: 90%;
+		align-items: center;
+	}
+
+	.typewriter,
+	.landing-links {
+		display: flex;
+		justify-content: center;
 	}
 }

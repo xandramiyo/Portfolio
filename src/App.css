@@ -1,8 +1,10 @@
 .App {
-  height: 100%;
-  flex-direction: column;
+  /* height: 100%;
+  flex-direction: column; */
 }
 
-section {
-  min-height: 100vh;
+@media(min-width: 850px) {
+	section {
+		margin-left: 7.9rem;
+	}
 }

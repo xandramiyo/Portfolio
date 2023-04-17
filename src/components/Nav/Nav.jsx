@@ -24,16 +24,16 @@ export default function Nav(){
 
 	return (
 		<nav className="flex">
-			<div className="flex center">
+			<div className="flex">
 				<a href="#landing">
 					<img src={logo} className="nav-logo"/>
 				</a>
 			</div>
-			<div className="flex site-nav" /*ref={hamburger} */>
-				<a href="#about">about</a>
-				<a href="#skills">skills</a>
-				<a href="#projects">projects</a>
-				<a href="#contact">contact</a>
+			<div className="flex col site-nav" /*ref={hamburger} */>
+				<a href="#about">ABOUT</a>
+				<a href="#skills">SKILLS</a>
+				<a href="#projects">PROJECTS</a>
+				<a href="#contact">CONTACT</a>
 			</div>
 			<div className="flex center hamburger">
 				<img src={menu}/> 
@@ -41,3 +41,5 @@ export default function Nav(){
 		</nav>
 	)
 }
+
+

@@ -1,21 +1,26 @@
 nav {
-	justify-content: space-between;
-	border-right: 1px solid white;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 	background-color: var(--main);
 	position: fixed;
-	top: 0;
-	z-index: 10;
-	width: 100%;
+	left: 0;
+	height: 100%;
 }
 
 .site-nav {
 	width: 100%;
-	justify-content: flex-end;
-	font-size: 1.5rem;
+	font-size: 1rem;
+	padding: .5rem;
 }
 
 .site-nav a{
-	padding: 1rem
+	padding: .4rem;
+	margin: .5rem;
+	border: 1px solid var(--accent-text);
+	border-radius: 10px;
+	text-align: center;
+	color: var(--accent-text);
 }
 
 .ext-links {
@@ -36,13 +41,25 @@ nav {
 
 @media (max-width: 850px) {
 
+	nav {
+		flex-direction: row;
+		justify-content: space-between;
+		border-right: 1px solid white;
+		background-color: var(--main);
+		position: fixed;
+		top: 0;
+		z-index: 10;
+		width: 100%;
+		height: 10%;
+	}
+
 	.hamburger {
 		display: flex;
 	}
 
 	.site-nav {
 		position: fixed;
-		top: 2.5rem;
+		top: 3.8rem;
 		right: -100%;
 		gap: 0;
 		flex-direction: column;
@@ -54,6 +71,7 @@ nav {
 
 	.site-nav a {
 		margin: .5rem 0rem;
+		border: none;
 	}
 
 	.site-nav.active {
@@ -64,5 +82,12 @@ nav {
 @media (max-width: 400px) {
 	.site-nav {
 		font-size: .8rem;
+	}
+}
+
+@media (min-width: 850px) {
+	.nav-logo {
+		margin-top: 1.4rem;
+		height: 4rem
 	}
 }

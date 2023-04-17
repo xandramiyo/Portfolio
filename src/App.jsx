@@ -8,7 +8,7 @@ import Contact from './components/Contact/Contact'
 
 function App() {
   return (
-    <div className="flex App">
+    <div className="App">
       <Nav />
       <main className="flex col center">
         <Landing />

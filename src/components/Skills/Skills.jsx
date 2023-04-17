@@ -24,7 +24,7 @@ export default function Skills() {
 
 	return (
 		<section id="skills" className= "flex col center">
-			<h3 data-aos="fade-up">skills</h3>
+			{/* <h3 data-aos="fade-up">skills</h3>
 			<div className="flex center skill-ctr">
 				<img src={js} alt="Javascript" className="logo" data-aos="flip-left"/>
 				<img src={html} alt="HTML" className="logo" data-aos="flip-left"/>
@@ -37,8 +37,8 @@ export default function Skills() {
 				<img src={django} alt="Django Framework" className="logo" data-aos="flip-left"/>
 				<img src={postgresql} alt="Postgresql" className="logo" data-aos="flip-left"/>
 				<img src={react} alt="React.js library" className="logo" data-aos="flip-left"/>
-				<img src={github} alt="Github Version Control" className="logo" data-aos="flip-left"/>
-			</div>
+				<img src={github} alt="Github Version Control" className="logo" data-aos="flip-left"/> */}
+			{/* </div> */}
 		</section>
 	)
 }

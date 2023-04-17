@@ -1,10 +1,11 @@
 :root {
   --white: #fff;
   --black: #000000;
-  --dark: #4C5760;
-  --main: #93A8AC;
-  --accent-1: #D7CEB2;
-  --accent-2: #A59E8C;
+
+  --main: rgb(28, 36, 46);
+  --light-text: rgb(215, 237, 242);
+  --main-text: rgb(146, 164, 168);
+  --accent-text: rgb(230, 175, 175);
 }
 
 * {
@@ -19,7 +20,7 @@ html,
 body {
   height: 100%;
   max-width: 100vw;
-  background-color: var(--dark)
+  background-color: var(--main)
 }
 
 html {
@@ -47,6 +48,7 @@ a {
 h2, 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: var(--light-text);
 }
 
 h3 {
@@ -56,6 +58,5 @@ h3 {
 }
 
 .highlight {
-  color: white;
-  text-decoration: underline pink;
+  color: var(--accent-text)
 }

@@ -17,17 +17,17 @@ export default function Landing() {
 	  })
 
 	return (
-		<section id="landing" className="flex col center">
-			<div className="landing flex col center">
-				<h2>Alexandra Sumiyoshi</h2>
+		<section id="landing" className="flex col">
+			<div className="landing flex col">
+				<h2>Hi, I'm Alexandra Sumiyoshi</h2>
 				<div className="flex typewriter">
-					<p>I am a </p>
+					<p>I'm a &nbsp;</p>
 					<Typewriter
 						options={{
 							strings: [
 							"software engineer.",
 							"dog mom.",
-							"trier of many hobbies.",
+							"tea lover.",
 							"bit of a nerd.",
 							],
 							autoStart: true,
@@ -41,6 +41,7 @@ export default function Landing() {
 					<a href={resume} target='_blank' rel="noreferrer">resume</a>
 				</div>
 			</div>
+			<hr />
 		</section>
 	)
 }
