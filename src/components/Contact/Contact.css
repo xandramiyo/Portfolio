@@ -46,7 +46,7 @@ form textarea {
 }
 
 .right-contact button:hover {
-	background-color: pink;
+	border: 1px solid var(--accent-text);
 }
 
 .contact-links {

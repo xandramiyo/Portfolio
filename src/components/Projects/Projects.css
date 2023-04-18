@@ -10,7 +10,8 @@
 .carousel {
 	overflow-x: scroll;
 	justify-content: center;
-	max-width: 40rem;
+	/* max-width: 80%; */
+	width: 100%;
 }
 
 .project-ctr {
@@ -108,7 +109,7 @@
 
 @media (min-width: 850px) {
 	#project1 {
-		margin-left: 60rem;
+		margin-left: 50rem;
 	}
 
 	.project-header {
