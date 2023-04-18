@@ -2,6 +2,7 @@ import './Nav.css'
 import { useEffect, useRef } from 'react'
 import logo from '../../images/logo.png'
 import menu from '../../images/menu.png'
+import resume from '../../files/resume.pdf'
 
 export default function Nav(){
 
@@ -34,6 +35,7 @@ export default function Nav(){
 				<a href="#skills">SKILLS</a>
 				<a href="#projects">PROJECTS</a>
 				<a href="#contact">CONTACT</a>
+				<a target="_blank" href={resume} rel="noreferrer">RESUME</a>
 			</div>
 			<div className="flex center hamburger">
 				<img src={menu}/> 

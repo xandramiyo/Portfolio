@@ -23,7 +23,7 @@ export default function Contact() {
 
 	return (
 		<section id="contact" className="flex col center">
-			<h3 data-aos="fade-up">get in touch</h3>
+			<h3 data-aos="fade-up">Get in Touch</h3>
 			<div className="flex contact-ctr" data-aos="fade-up">
 				<div className="left-contact flex col center">
 					<p>Whether you have an opportunity for me or just want to have a chat, fill out the form and I'll get back to you as soon as I can!</p>

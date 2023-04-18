@@ -5,6 +5,7 @@ import pc from '../../images/monitor.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 export default function Projects() {
 	
 	useEffect(() => {
@@ -12,9 +13,87 @@ export default function Projects() {
     }, [])
 	
 	return (
-		<section id="projects" className="flex col center">
-			<h3 data-aos="fade-up">featured projects</h3>
-			<div id="project1" className="project-ctr flex col" data-aos="fade-up">
+		<section id="projects" className="flex col">
+			<h3>Projects</h3>
+				<div className="flex carousel">
+					<div id="project1" className="project-ctr flex col">
+						<div className="project-img-ctr">
+							<img src="https://i.imgur.com/oCBpbx9.png" className="project-img"/>
+						</div>
+						<div className="project-info flex col">
+							<div className="project-header">
+								<h5>Money Gone</h5>
+								<div className="project-links">
+									<a target="_blank" href="https://github.com/xandramiyo/Money-Gone">Github repo</a>
+									&nbsp;&nbsp;&nbsp;&nbsp;
+									<a target="_blank" href="https://blather.herokuapp.com/">Deployed site</a>
+								</div>
+							</div>
+							<p>Track your spending and income. Create, update, and delete purchases or income to increase consciousness of where your money is going.</p>
+							<div className="flex project-footer">
+								<div>Javascript</div>
+								<div>MongoDB</div>
+								<div>Mongoose</div>
+								<div>Express.js </div>
+								<div>React.js</div>
+								<div>Node.js</div>
+							</div>
+						</div>
+					</div>
+					<div id="project2" className="project-ctr flex col" >
+						<div className="project-img-ctr">
+							<img src="https://i.imgur.com/QjYk18h.png" className="project-img"/>
+						</div>
+						<div className="project-info flex col">
+							<div className="project-header">
+								<h5>Blather</h5>
+									<div className="project-links">
+										<a target="_blank" href="https://github.com/xandramiyo/Blather">Github repo</a>
+										&nbsp;&nbsp;&nbsp;&nbsp;
+										<a target="_blank" href="https://blather.herokuapp.com/">Deployed site</a>
+									</div>
+							</div>
+							<p>A blog platform inspired by twitter's thread format. Create threads, add posts to threads, and add comments. </p>
+							<div className="flex project-footer">
+								<div>Javascript</div>
+								<div>MongoDB</div>
+								<div>Mongoose</div>
+								<div>Express.js</div>
+								<div>Node.js</div>
+							</div>
+						</div>
+					</div>
+					<div id="project3" className="project-ctr flex col">
+						<div className="project-img-ctr">
+							<img src="https://i.imgur.com/1fgf98o.png" className="project-img"/>
+						</div>
+						<div className="flex col project-info ">
+							<div className="project-header">
+								<h5>Fanbass</h5>
+								<div className="project-links">
+									<a target="_blank" href="https://github.com/nandobrain/Fanbass">Github repo</a>
+									&nbsp;&nbsp;&nbsp;&nbsp;
+									<a target="_blank" href="https://fanbass.herokuapp.com/">Deployed site</a>
+								</div>
+							</div>
+							<p>Memorialize all your experiences related to your favorite music artists. Add an artist to your library, add records of your experiences (such as live shows, merch, new releases, and more), and leave comments. </p>
+							<div className="flex project-footer">
+								<div>Python</div>
+								<div>Django</div>
+								<div>Postgresql</div>
+								<div>AWS S3</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+	)
+}
+
+
+/*
+
+<div id="project1" className="project-ctr flex col" data-aos="fade-up">
 				<div>
 					<img src="https://i.imgur.com/BpK0qhW.png" className="project-img"/>
 				</div>
@@ -104,6 +183,6 @@ export default function Projects() {
 					</div>
 				</div>
 			</div>
-		</section>
-	)
-}
+
+*/
+

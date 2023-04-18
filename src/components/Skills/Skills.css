@@ -1,11 +1,41 @@
-.skill-ctr {
-	flex-wrap: wrap;
-	background-color: var(--main);
-	border-radius: 10px;
-	margin-top: .5rem;
+ul {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	list-style: none;
 }
 
-.logo {
-	height: 3rem;
-	margin: 1rem;
+li::before {
+	content: '> ';
+	color: var(--accent-text)
+}
+
+li {
+	color: var(--main-text);
+	margin: .2rem 2rem;
+}
+
+.skills {
+	border: 1px solid var(--accent-text);
+	border-radius: 10px;
+	padding: .8rem;
+}
+
+.skills h3 {
+	color: var(--accent-text);
+	text-align: left;
+	padding-left: 1rem;
+	font-weight: 500;
+}
+
+@media (max-width: 850px) {
+	#skills {
+		align-items: center;
+		justify-content: center;
+	}
+
+	li {
+		margin: .2rem 1.2rem;
+	}
+
 }

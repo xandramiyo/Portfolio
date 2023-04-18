@@ -1,3 +1,7 @@
+#landing {
+	width: 100%;
+}
+
 .landing h2 {
 	text-align: center;
 	padding-top: 8rem;
@@ -8,6 +12,7 @@
 
 .landing {
 	align-items: flex-start;
+	margin-left: 2rem;
 }
 
 .landing-links {
@@ -33,12 +38,8 @@
 	color: var(--main-text);
 }
 
-.landing-links {
-	margin-top: 1.5rem;
-}
-
 hr {
-	width: 80%;
+	width: 93%;
 	align-self: center;
 	margin-top: 7rem;
 	color: var(--main-text);
@@ -49,8 +50,7 @@ hr {
 		align-items: center;
 	}
 
-	.typewriter,
-	.landing-links {
+	.typewriter {
 		display: flex;
 		justify-content: center;
 	}

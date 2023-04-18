@@ -36,10 +36,6 @@ export default function Landing() {
 						}}
 					/>
 				</div>
-				<div className="landing-links">
-					<a href="#contact">contact me</a>
-					<a href={resume} target='_blank' rel="noreferrer">resume</a>
-				</div>
 			</div>
 			<hr />
 		</section>

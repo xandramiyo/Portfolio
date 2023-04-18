@@ -1,71 +1,119 @@
+#projects {
+	width: 100%;
+	margin-left: 1.8rem;
+}
+
+#projects h3 {
+	text-align: left;
+}
+
+.carousel {
+	overflow-x: scroll;
+	justify-content: center;
+	max-width: 40rem;
+}
+
 .project-ctr {
 	align-items: center;
 	background-color: var(--main);
 	color: white;
-	margin: .5rem 0rem;
+	margin: .5rem 1rem;
 	border-radius: 10px;
+	border: 1px solid var(--accent-text);
+	width: 35rem;
 }
 
-.project-ctr > div {
-	padding: 1rem;
+.project-img-ctr {
+	padding: 1rem 1rem 0rem 1rem;
 }
 
 .project-img {
-	height: 10rem;
+	height: 15rem;
+}
+
+.project-info h5,
+.project-info p,
+.project-links {
+	margin: .5rem;
+}
+
+.project-links a {
+	font-size: .8rem;
+	color: var(--accent-text)
+}
+
+.project-links a:hover {
+	color: white;
 }
 
 .project-info {
-	margin: .8rem;
-	padding: .4rem;
-	font-weight: 400;
+	height: 100%;
+	padding: 1rem;
+	color: var(--light-text);
+	justify-content: space-between;
+}
+
+
+.project-info h5 {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.project-info p {
+	font-weight: 300;
 }
 
 .project-footer {
-	margin: .8rem 0rem;
 	justify-content: flex-start;
 	flex-wrap: wrap;
 }
 
 .project-footer * {
-	margin: .5rem;
-	color: white;
+	font-size: .8rem;
+	color: var(--accent-text);
 }
 
 .project-footer div {
-	border: 1px solid pink;
-	padding: .4rem;
+	margin: .5rem;
 }
 
 .project-link {
 	height: 2rem;
 }
 
-h5 {
-	font-size: 1.2rem;
-}
-
-@media (max-width: 800px) {
+@media (max-width: 850px) {
 	#projects {
-		width: 90%;
+		margin-left: 0rem;
+	}
+
+	.carousel {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		overflow-x: auto;
 	}
 
 	.project-ctr {
-		width: 22rem;
+		width: 20rem;
+	}
+
+	#projects h3 {
+		text-align: center;
+	}
+
+	.project-img {
+		height: 9rem;
 	}
 }
 
-@media (min-width: 500px) {
-	.project-ctr {
-		width: 30rem;
-	}
-}
-
-@media(min-width: 800px) {
-	.project-ctr {
-		width: 50rem;
+@media (min-width: 850px) {
+	#project1 {
+		margin-left: 60rem;
 	}
 
-	.project-img img {
-		height: 15rem;
+	.project-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
 	}
 }
