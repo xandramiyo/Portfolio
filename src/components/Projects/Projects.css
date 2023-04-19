@@ -8,10 +8,10 @@
 }
 
 .carousel {
-	overflow-x: scroll;
-	justify-content: center;
-	/* max-width: 80%; */
-	width: 100%;
+	justify-content: flex-start;
+
+	overflow-x: auto;
+	overscroll-behavior-inline: contained;
 }
 
 .project-ctr {
@@ -88,6 +88,7 @@
 	}
 
 	.carousel {
+		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
@@ -108,10 +109,6 @@
 }
 
 @media (min-width: 850px) {
-	#project1 {
-		margin-left: 50rem;
-	}
-
 	.project-header {
 		display: flex;
 		justify-content: space-between;
