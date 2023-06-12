@@ -18,7 +18,7 @@ export default function Projects() {
 				<div className="flex carousel">
 					<div id="project1" className="project-ctr flex col">
 						<div className="project-img-ctr">
-							<img src="https://imgur.com/n65ygpg" className="project-img"/>
+							<img src="https://i.imgur.com/n65ygpg.png" className="project-img"/>
 						</div>
 						<div className="project-info flex col">
 							<div className="project-header">
