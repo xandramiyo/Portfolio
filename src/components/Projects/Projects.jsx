@@ -18,7 +18,7 @@ export default function Projects() {
 				<div className="flex carousel">
 					<div id="project1" className="project-ctr flex col">
 						<div className="project-img-ctr">
-							<img src="https://i.imgur.com/oCBpbx9.png" className="project-img"/>
+							<img src="https://imgur.com/n65ygpg" className="project-img"/>
 						</div>
 						<div className="project-info flex col">
 							<div className="project-header">
@@ -26,7 +26,7 @@ export default function Projects() {
 								<div className="project-links">
 									<a target="_blank" href="https://github.com/xandramiyo/Money-Gone">Github repo</a>
 									&nbsp;&nbsp;&nbsp;&nbsp;
-									<a target="_blank" href="https://blather.herokuapp.com/">Deployed site</a>
+									<a target="_blank" href="https://money-gone.herokuapp.com/">Deployed site</a>
 								</div>
 							</div>
 							<p>Track your spending and income. Create, update, and delete purchases or income to increase consciousness of where your money is going.</p>
