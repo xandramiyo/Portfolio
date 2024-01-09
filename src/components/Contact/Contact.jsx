@@ -40,10 +40,11 @@ export default function Contact() {
 					</div>
 				</div>
 				<form className="flex col right-contact" onSubmit={sendEmail} ref={form}>
-					<input name='name' placeholder="Name"></input>
-					<input name='email' placeholder="Email"></input>
+					<input name='name' id="name" placeholder="Name"></input>
+					<input name='email' id="email_id" placeholder="Email"></input>
 					<textarea 
 						name='message'
+						id="message"
 						placeholder="Message"
 						rows={5}
 					></textarea>
