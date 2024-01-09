@@ -13,7 +13,7 @@ export default function Contact() {
 	const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_agddv4w', 'template_maub5z9', form.current, 'agiHzzbGo689oPv0u')
+        emailjs.sendForm('service_agddv4w', 'template_maub5z9', form.current, 'WeCySE_5KlWn7uIol')
         e.target.reset()
     };
 

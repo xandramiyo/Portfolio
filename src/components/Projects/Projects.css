@@ -9,9 +9,12 @@
 
 .carousel {
 	justify-content: flex-start;
-
 	overflow-x: auto;
 	overscroll-behavior-inline: contained;
+}
+
+.carousel::-webkit-scrollbar {
+	color: rgb(230, 175, 175);
 }
 
 .project-ctr {

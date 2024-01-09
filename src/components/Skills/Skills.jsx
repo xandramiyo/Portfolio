@@ -1,17 +1,17 @@
 import './Skills.css'
 import { useEffect} from 'react'
-import js from '../../images/js.png'
-import html from '../../images/html.png'
-import css from '../../images/css.png'
-import nodejs from '../../images/nodejs.png'
-import express from '../../images/express.png'
-import mongoDB from '../../images/mongoDB.png'
-import mongoose from '../../images/mongoose.png'
-import python from '../../images/python.png'
-import django from '../../images/django.png'
-import postgresql from '../../images/postgresql.png'
-import react from '../../images/react.png'
-import github from '../../images/github.png'
+// import js from '../../images/js.png'
+// import html from '../../images/html.png'
+// import css from '../../images/css.png'
+// import nodejs from '../../images/nodejs.png'
+// import express from '../../images/express.png'
+// import mongoDB from '../../images/mongoDB.png'
+// import mongoose from '../../images/mongoose.png'
+// import python from '../../images/python.png'
+// import django from '../../images/django.png'
+// import postgresql from '../../images/postgresql.png'
+// import react from '../../images/react.png'
+// import github from '../../images/github.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -42,6 +42,7 @@ export default function Skills() {
 					<li>Django</li>
 					<li>PostgresQL</li>
 					<li>Github</li>
+					<li>Material UI</li>
 				</ul>
 			</div>
 		</section>

@@ -1,7 +1,5 @@
 import './Projects.css'
 import { useEffect} from 'react'
-import github from '../../images/github.png'
-import pc from '../../images/monitor.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -18,18 +16,18 @@ export default function Projects() {
 				<div className="flex carousel">
 					<div id="project1" className="project-ctr flex col">
 						<div className="project-img-ctr">
-							<img src="https://i.imgur.com/n65ygpg.png" className="project-img"/>
+							<img src="https://i.imgur.com/n65ygpg.png" className="project-img" alt=""/>
 						</div>
 						<div className="project-info flex col">
 							<div className="project-header">
 								<h5>Money Gone</h5>
 								<div className="project-links">
-									<a target="_blank" href="https://github.com/xandramiyo/Money-Gone">Github repo</a>
+									<a target="_blank" rel="noreferrer" href="https://github.com/xandramiyo/Money-Gone">Github repo</a>
 									&nbsp;&nbsp;&nbsp;&nbsp;
-									<a target="_blank" href="https://money-gone.herokuapp.com/">Deployed site</a>
+									<a target="_blank" rel="noreferrer" href="https://money-gone.herokuapp.com/">Deployed site</a>
 								</div>
 							</div>
-							<p>Track your spending and income. Create, update, and delete purchases or income to increase consciousness of where your money is going.</p>
+							<p>Be more conscious of your money. Add expenses and income to keep track of daily spending and see expenses by spending category.</p>
 							<div className="flex project-footer">
 								<div>Javascript</div>
 								<div>MongoDB</div>
@@ -37,23 +35,24 @@ export default function Projects() {
 								<div>Express.js </div>
 								<div>React.js</div>
 								<div>Node.js</div>
+								<div>Material UI</div>
 							</div>
 						</div>
 					</div>
 					<div id="project2" className="project-ctr flex col" >
 						<div className="project-img-ctr">
-							<img src="https://i.imgur.com/QjYk18h.png" className="project-img"/>
+							<img src="https://i.imgur.com/QjYk18h.png" className="project-img" alt=""/>
 						</div>
 						<div className="project-info flex col">
 							<div className="project-header">
 								<h5>Blather</h5>
 									<div className="project-links">
-										<a target="_blank" href="https://github.com/xandramiyo/Blather">Github repo</a>
+										<a target="_blank" rel="noreferrer" href="https://github.com/xandramiyo/Blather">Github repo</a>
 										&nbsp;&nbsp;&nbsp;&nbsp;
-										<a target="_blank" href="https://blather.herokuapp.com/">Deployed site</a>
+										<a target="_blank" rel="noreferrer" href="https://blather.herokuapp.com/">Deployed site</a>
 									</div>
 							</div>
-							<p>A blog platform inspired by twitter's thread format. Create threads, add posts to threads, and add comments. </p>
+							<p>A blog platform inspired by twitter's thread format. Create posts, add to posts to create threads, and add comments. </p>
 							<div className="flex project-footer">
 								<div>Javascript</div>
 								<div>MongoDB</div>
@@ -65,15 +64,15 @@ export default function Projects() {
 					</div>
 					<div id="project3" className="project-ctr flex col">
 						<div className="project-img-ctr">
-							<img src="https://i.imgur.com/1fgf98o.png" className="project-img"/>
+							<img src="https://i.imgur.com/1fgf98o.png" className="project-img" alt=""/>
 						</div>
 						<div className="flex col project-info ">
 							<div className="project-header">
 								<h5>Fanbass</h5>
 								<div className="project-links">
-									<a target="_blank" href="https://github.com/nandobrain/Fanbass">Github repo</a>
+									<a target="_blank" rel="noreferrer" href="https://github.com/nandobrain/Fanbass">Github repo</a>
 									&nbsp;&nbsp;&nbsp;&nbsp;
-									<a target="_blank" href="https://fanbass.herokuapp.com/">Deployed site</a>
+									<a target="_blank" rel="noreferrer" href="https://fanbass.herokuapp.com/">Deployed site</a>
 								</div>
 							</div>
 							<p>Memorialize all your experiences related to your favorite music artists. Add an artist to your library, add records of your experiences (such as live shows, merch, new releases, and more), and leave comments. </p>

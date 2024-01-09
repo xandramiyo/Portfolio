@@ -27,7 +27,7 @@ export default function Nav(){
 		<nav className="flex">
 			<div className="flex">
 				<a href="#landing">
-					<img src={logo} className="nav-logo"/>
+					<img src={logo} className="nav-logo" alt=""/>
 				</a>
 			</div>
 			<div className="flex col site-nav" /*ref={hamburger} */>
@@ -35,10 +35,10 @@ export default function Nav(){
 				<a href="#skills">SKILLS</a>
 				<a href="#projects">PROJECTS</a>
 				<a href="#contact">CONTACT</a>
-				<a target="_blank" href={resume} rel="noreferrer">RESUME</a>
+				{/* <a target="_blank" href={resume} rel="noreferrer">RESUME</a>  */}
 			</div>
 			<div className="flex center hamburger">
-				<img src={menu}/> 
+				<img src={menu} alt="navigation menu"/> 
 			</div>
 		</nav>
 	)
